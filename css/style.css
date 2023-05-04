@@ -130,3 +130,9 @@ body {
 		margin-bottom: 30px;
 	}
 }
+
+.bg-dark .p-2 .text-center .last {
+	height: auto;
+	width:auto;
+
+}
