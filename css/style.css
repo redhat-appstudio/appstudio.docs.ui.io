@@ -138,6 +138,24 @@ footer.main-footer {
 	text-align: center;
 }
 
+.footerone {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer.main-footer .copyrights {
+  background: #090909;
+  margin-top: 100px;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+
+footer.main-footer .copyrights * {
+  margin-bottom: 0;
+}
+
+
+
 img,
 svg {
 	vertical-align: middle;
