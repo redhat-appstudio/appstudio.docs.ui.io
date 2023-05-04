@@ -14,7 +14,7 @@ body {
 }
 .carousel-caption {
 	bottom: 220px;
-	z-index: 2;
+	z-index: 2;fon
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -148,15 +148,6 @@ svg {
 }
 
 
-body.landing .hero {
-	padding-top: 20px;
-}
-
-body.landing section {
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
 .container .hero {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
