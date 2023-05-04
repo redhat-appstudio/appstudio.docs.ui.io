@@ -1,0 +1,18 @@
+output: web
+timezone: Asia/Kolkata
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+site.url: 
+
+format: web
+
+
+target: web
+
+lang: en_US
+
