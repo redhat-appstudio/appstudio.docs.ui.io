@@ -33,38 +33,13 @@
 			<!-- Tiles section Starts -->
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-4">
-					<div class="card text-white text-center bg-primary pb-2">
-						<div class="card-body">
-							<i class="bi bi-laptop"></i>
-							<h3 class="card-title">Get Started</h3>
-							<p class="lead">App Studio is a multi-tenant, software as a service (SaaS) based continuous
-								integration and continuous delivery (CI/CD) service with an emphasis on secure supply
-								chain features.?</p>
-							<button class="btn bg-warning text-dark">Read More</button>
-						</div>
-					</div>
+					{% include get-started.html %}
 				</div>
 				<div class="col-12 col-md-12 col-lg-4">
-					<div class="card text-white text-center bg-primary pb-2">
-						<div class="card-body">
-							<i class="bi bi-journal"></i>
-							<h3 class="card-title">Sustainability</h3>
-							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-								modi temporibus alias iste. Accusantium?</p>
-							<button class="btn bg-warning text-dark">Read More</button>
-						</div>
-					</div>
+					{% include how-to.html %}
 				</div>
 				<div class="col-12 col-md-12 col-lg-4">
-					<div class="card text-white text-center bg-primary pb-2">
-						<div class="card-body">
-							<i class="bi bi-intersect"></i>
-							<h3 class="card-title">Integrity</h3>
-							<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eligendi
-								modi temporibus alias iste. Accusantium?</p>
-							<button class="btn bg-warning text-dark">Read More</button>
-						</div>
-					</div>
+					{% include concepts.html %}
 				</div>
 			</div>
 		</div>
@@ -75,9 +50,7 @@
 	<!-- footer starts -->
 	<footer class="bg-dark p-2 text-center">
 		<div class="container">
-			<div class="last">
-			<img src="{{site.url}}/img/Logo-RedHat.svg" alt="Red Hat">
-			</div>
+			<img src="{{site.url}}/img/Logo-RedHat.svg" alt="Red Hat" class="logo">
 		</div>
 	</footer>
 	<!-- footer ends -->
