@@ -7,7 +7,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-url: https://redhat-appstudio.github.io/stonesoup.doc.ui.io/
+url: https://redhat-appstudio.github.io/appstudio.docs.ui.io/
 
 format: web
 
