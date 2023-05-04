@@ -157,44 +157,6 @@ body.landing section {
 	margin-bottom: 40px;
 }
 
-@media (min-width: 1200px) 
-.container {
-	width: 1170px;
-}
-
-@media (min-width: 1200px) 
-.col-lg-offset-3 {
-	margin-left: 25%;
-}
-
-@media (min-width: 1200px) 
-.col-lg-6 {
-	width: 50%;
-}
-
-@media (min-width: 1200px) .col-lg-1,
-.col-lg-10,
-.col-lg-11,
-.col-lg-12,
-.col-lg-2,
-.col-lg-3,
-.col-lg-4,
-.col-lg-5,
-.col-lg-6,
-.col-lg-7,
-.col-lg-8,
-.col-lg-9 {
-	float: left;
-}
-
-
-@media (min-width: 1400px) 
-.container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-	max-width: 1320px;
+.herocontainer {
 	padding-bottom: 20px;
 }
