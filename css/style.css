@@ -104,7 +104,6 @@ body {
 		width: 100%;
 	}
 }
-
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
 		text-align: center;
@@ -130,6 +129,14 @@ body {
 	.card {
 		margin-bottom: 30px;
 	}
+}
+
+
+footer.main-footer {
+	background: #0e0e0e;
+	padding: 60px;
+	text-align: center;
+	display: flex;
 }
 
 img,
