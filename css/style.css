@@ -162,3 +162,7 @@ svg {
 	padding: 10px;
 	padding-top: 25px;
 }
+
+.pb-3 {
+	padding-top: 25px !important;
+}
