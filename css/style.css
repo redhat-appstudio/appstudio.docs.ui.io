@@ -155,3 +155,12 @@ svg {
 .lead {
 	font-size: 15px !important;
 }
+
+.privacy {
+	background-color: rgba(0, 0, 0, 0.15);
+	color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
